@@ -1,24 +1,23 @@
 #ifndef __MYSTRING_H__
 #define __MYSTRING_H__
 
+#include <stdio.h>
 
-class MyString()
+class MyString
 {
-private:
 	const char* content = nullptr;
-
 
 public:
 	// Constructors --------------------------------------------------------------------
-	MyString() {}
+	MyString();
 
-	MyString(const char* given_content) : content(given_content) {}
+	MyString(const char* given_content);
 
-	MyString(const MyString& string_cpy) : content(string_cpy->content) {}
+	MyString(const MyString& string_cpy);
 
 	// Destructor ----------------------------------------------------------------------
 
-	~MyString() {}
+	~MyString();
 
 	// String
 	/*
@@ -29,5 +28,6 @@ public:
 	*/
 	// String without templates
 
-}
+};
+
 #endif

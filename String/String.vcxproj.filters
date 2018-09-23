@@ -18,6 +18,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Archivos de recursos</Filter>
     </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyString.h">
