@@ -3,20 +3,18 @@
 
 int main()
 {
-	// String
-	/*
-	string a;
-	string b("hello");
-	string c(b);
-	a = "bye";
-	*/
-	// String without templates
-	MyString testring("Testing testing\n\n");
-	printf_s("%s", testring);
+	MyString a;
+	
+	MyString b("Hello");
 
-	MyString testring2(testring);
-	printf_s("%s", testring2);
+	MyString c(b);
 
+	a = "World";
+
+
+	printf_s("a: %s\n\n", a);
+	printf_s("b: %s\n\n", b);
+	printf_s("c: %s\n\n", c);
 	getchar();
 
 	return(0);

@@ -22,3 +22,8 @@ MyString::MyString(const MyString& string_cpy)
 MyString::~MyString() {}
 
 // Operator ------------------------------------------------------------------
+
+void MyString::operator=(const char* given_content)
+{
+	content = given_content;
+}

@@ -19,15 +19,9 @@ public:
 
 	~MyString();
 
-	// String
-	/*
-	string a;
-	string b("hello");
-	string c(b);
-	a = "bye";
-	*/
-	// String without templates
+	// Operator ------------------------------------------------------------------------
 
+	void operator=(const char* given_string);
 };
 
 #endif
